@@ -1,0 +1,26 @@
+cy.getBySel("Update Contact Info").click()
+
+const userInfo = {
+  First Name: "Abdallah",
+  Last Name: "Abdallah",
+  Address: "Cairo, Egypt",
+  City: "Cairo",
+  State: "Cairo",
+  ZipCode: "15691",
+  Phone #: "002010123456789",
+  
+}
+
+// ...
+
+cy.getBySel("billpay-First Name").type(userInfo.First Name)
+cy.getBySel("billpay-Last Name").type(userInfo.Last Name)
+cy.getBySel("signup-Address").type(userInfo.Address)
+cy.getBySel("signup-City").type(userInfo.City)
+cy.getBySel("signup-State").type(userInfo.State)
+cy.getBySel("signup-ZipCode").type(userInfo.ZipCode)
+cy.getBySel("signup-Phone #").type(userInfo.Phone #)
+
+
+
+cy.getBySel("updateprofile-UPDATE PROFILE").click()
