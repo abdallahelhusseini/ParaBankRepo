@@ -1,0 +1,4 @@
+cy.getBySel("Open New Account").click()
+cy.wait("@OPEN NEW ACCOUNT")
+
+cy.getBySel("OPEN NEW ACCOUNT").click()
