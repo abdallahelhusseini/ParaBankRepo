@@ -1,0 +1,29 @@
+const userInfo = {
+  firstName: "Abdallah",
+  lastName: "Elhusseiny",
+  Address: "New Cairo",
+  City: "Cairo",
+  State: "Cairo",
+  ZipCode: "15691",
+  Phone: "002010123456789",
+  SSN: "123456789",
+  UserName: "abdallah",
+  password: "ParaBank@1234",
+  Confirm: "ParaBank@1234",
+}
+
+// ...
+
+cy.getBySel("signup-Firstname").type(userInfo.FirstName)
+cy.getBySel("signup-Lastname").type(userInfo.LastName)
+cy.getBySel("signup-Address").type(userInfo.Address)
+cy.getBySel("signup-City").type(userInfo.City)
+cy.getBySel("signup-State").type(userInfo.State)
+cy.getBySel("signup-ZipCode").type(userInfo.ZipCode)
+cy.getBySel("signup-SSN").type(userInfo.SSN)
+cy.getBySel("signup-UserName").type(UserName)
+cy.getBySel("signup-password").type(userInfo.password)
+cy.getBySel("signup-Confirm").type(Confirm)
+
+
+cy.getBySel("Register-REGISTER").click()
