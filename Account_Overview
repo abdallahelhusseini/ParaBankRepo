@@ -1,0 +1,1 @@
+cy.getBySel("Accounts Overview").click()
