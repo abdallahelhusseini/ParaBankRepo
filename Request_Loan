@@ -15,4 +15,4 @@ cy.getBySel("requestloan-Down Payment").type(userInfo.Down Payment)
 
 
 
-cy.getBySel("requestloan-REQUEST LOAN").click()
+cy.getBySel("requestloan-Apply Now").click()
