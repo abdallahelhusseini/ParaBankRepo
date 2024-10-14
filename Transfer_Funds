@@ -1,0 +1,9 @@
+cy.getBySel("Transfer Funds").click()
+const userInfo = {
+  Amount: "10",
+}
+
+cy.getBySel("Transfer-Amount").type(Amount)
+
+
+cy.getBySel("TRANSFER").click()
