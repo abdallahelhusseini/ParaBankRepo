@@ -1,0 +1,28 @@
+cy.getBySel("Bill Pay").click()
+
+const userInfo = {
+  Payee Name: "Abdallah",
+  Address: "Cairo, Egypt",
+  City: "Cairo",
+  State: "Cairo",
+  ZipCode: "15691",
+  Phone #: "002010123456789",
+  Account #: "14898",
+  VerifyAccount #: "14898",
+  Amount: "10",
+}
+
+// ...
+
+cy.getBySel("billpay-Payee Name").type(userInfo.Payee Name)
+cy.getBySel("signup-Address").type(userInfo.Address)
+cy.getBySel("signup-City").type(userInfo.City)
+cy.getBySel("signup-State").type(userInfo.State)
+cy.getBySel("signup-ZipCode").type(userInfo.ZipCode)
+cy.getBySel("signup-Phone #").type(userInfo.Phone #)
+cy.getBySel("signup-Account #").type(userInfo.Account #)
+cy.getBySel("signup-VerifyAccount #").type(userInfo.VerifyAccount #)
+cy.getBySel("signup-Amount").type(userInfo.Amount)
+
+
+cy.getBySel("billpay-SEND PAYMENT").click()
