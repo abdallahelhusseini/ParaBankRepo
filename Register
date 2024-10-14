@@ -1,0 +1,1 @@
+cy.getBySel("Register").click()
