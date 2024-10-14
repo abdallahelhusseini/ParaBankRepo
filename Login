@@ -1,0 +1,8 @@
+const userInfo = {
+  username: "abdallah",
+  password: "ParaBank@1234",
+}
+
+// ..
+
+cy.login(userInfo.username, userInfo.password)
