@@ -1,0 +1,18 @@
+cy.getBySel("Update Contact Info").click()
+
+const userInfo = {
+  Loan Amount: "1000",
+  Down Payment: "10",
+ 
+  
+}
+
+// ...
+
+cy.getBySel("requestloan-Loan Amount").type(userInfo.Loan Amount)
+cy.getBySel("requestloan-Down Payment").type(userInfo.Down Payment)
+
+
+
+
+cy.getBySel("requestloan-REQUEST LOAN").click()
