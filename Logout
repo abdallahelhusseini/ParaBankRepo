@@ -1,0 +1,1 @@
+cy.getBySel("index-Log Out").click()
